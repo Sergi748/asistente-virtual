@@ -23,7 +23,7 @@ class SearchGoogle:
 class Weather:
 
     def __init__(self):
-        self.api_weather = '961b91303ac246688e9192047233010'
+        self.api_weather = 'xxxxxxxxxxxxxx'
 
     def get_weather(self, city):
 

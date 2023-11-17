@@ -20,7 +20,6 @@ def chat_functions(prompt, id_session, path_context, functions_calls, historical
             function_call="auto"
             )
 
-        # resp = response["choices"][0]["message"]
         resp = response.choices[0].message
 
         # if resp.get("function_call"):
