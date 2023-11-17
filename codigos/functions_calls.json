@@ -1,0 +1,56 @@
+{
+  "functions_calls": [
+    {
+      "name": "open_website",
+      "description": "Abir página web concreta",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "website": {
+            "type": "string",
+            "description": "Página web que se desea abrir"
+          }
+        }
+      }
+    },
+    {
+      "name": "search_chrome",
+      "description": "Búsqueda especifica en el navegador de google Chrome",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "search": {
+            "type": "string",
+            "description": "Búsqueda que se quiere realizar en google"
+          }
+        }
+      }
+    },
+    {
+      "name": "get_weather",
+      "description": "Obtener clima",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "Localidad de la cual obtener el clima, debe ser una ciudad o localidad."
+          }
+        }
+      }
+    },
+    {
+      "name": "create_images",
+      "description": "Generador de imágenes",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Descripción de la imagen a generar."
+          }
+        }
+      }
+    }
+  ]
+}
